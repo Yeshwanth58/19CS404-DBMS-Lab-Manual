@@ -1,3 +1,111 @@
+Skip to content
+Navigation Menu
+Sudharsanan-18
+19CS404-DBMS-Lab-Manual
+
+Type / to search
+Code
+Pull requests
+Actions
+Projects
+Security
+Insights
+Files
+Go to file
+t
+Experiment10_Triggers
+Experiment1_ER_Diagram
+problem_statement.md
+Experiment2_DDL_Commands
+README.md
+Experiment3_DML_Commands
+README.md
+Experiment4_AggregateGroupByHaving
+README.md
+Experiment5_Subqueries_Views
+README.md
+Experiment6_Joins
+README.md
+Experiment7_plsql
+readme.md
+Experiment8_Cursor
+Experiment9_Procedures
+README.md
+You’re making changes in a project you don’t have write access to. Submitting a change will write it to a new branch in your fork Yeshwanth58/19CS404-DBMS-Lab-Manual, so you can send a pull request.
+19CS404-DBMS-Lab-Manual/Experiment7_plsql
+/
+readme.md
+in
+main
+
+Edit
+
+Preview
+Indent mode
+
+Spaces
+Indent size
+
+2
+Line wrap mode
+
+Soft wrap
+Editing readme.md file contents
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
 # Experiment 7: PL/SQL – Variables, Control Structures and Loops
 
 ## AIM
@@ -36,59 +144,23 @@ END;
 
 **Expected Output:**  
 Greater number is: 80
+### Program:
+```
+DECLARE
+    num1 NUMBER := 80;  -- First number
+    num2 NUMBER := 50;  -- Second number
+BEGIN
+    IF num1 > num2 THEN
+        DBMS_OUTPUT.PUT_LINE('Greater number is: ' || num1);
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Greater number is: ' || num2);
+    END IF;
+END;
+```
+### Output:
 
----
 
-## 2. Write a PL/SQL program to Calculate Sum of First N Natural Numbers
-
-### Steps:
-- Declare a variable `n` and assign a value (e.g., 10).
-- Initialize a `sum` variable to 0.
-- Use a `WHILE` loop to iterate from 1 to `n`, adding each number to the sum.
-- Display the result using `DBMS_OUTPUT.PUT_LINE`.
-
-**Expected Output:**  
-Sum of first 10 natural numbers is: 55
-
----
-
-## 3. Write a PL/SQL program to generate Fibonacci series
-
-### Steps:
-- Declare the variable `n` to indicate how many terms to generate.
-- Initialize the first two Fibonacci numbers (0 and 1).
-- Use a loop to generate the next terms using the formula `c = a + b`.
-- Print each term in the series.
-
-**Expected Output:**  
-n = 7  
-Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
-
----
-
-## 4. Write a PL/SQL Program to display the number in Reverse Order
-
-### Steps:
-- Declare a variable `n` and assign a value (e.g., 1535).
-- Use a loop to extract each digit using modulo and reverse the number.
-- Display the reversed number.
-
-**Expected Output:**  
-n = 1535  
-Reversed number is 5351
-
----
-
-## 5. Write a PL/SQL program to find the largest of three numbers
-
-### Steps:
-- Declare three numeric variables `a`, `b`, and `c`.
-- Use nested `IF-ELSIF-ELSE` conditions to find the largest among the three.
-- Display the largest number.
-
-**Expected Output:**  
-a = 10, b = 9, c = 15  
-Largest of three number is 15
-
-## RESULT
-Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
+<img width="398" height="278" alt="514783700-dec6d66a-95b6-4c4b-a622-c9937356ff70" src="https://github.com/user-attachments/assets/1fbe0355-41f8-487a-8250-6a7bda1cb75b" />
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+No file chosen
+Attach files by dragging & dropping, selecting or pasting them.
